@@ -1,0 +1,67 @@
+.container {
+    width: 130px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+[data-selected_door="true"] .body {
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-top: 3px solid yellow;
+}
+
+[data-selected_door="true"] .number {
+    color: yellow;
+}
+
+[data-selected_door="true"] .handle {
+    background-color: yellow;
+}
+
+.body {
+    width: 110px;
+    height: 197px;
+    background-color: #D15E2A;
+    margin: 0 10px;
+    border-left: 3px solid #862A2F;
+    border-right: 3px solid #862A2F;
+    border-top: 3px solid #862A2F;
+    display: grid;
+    grid-template-rows: 70px 30px 94px;
+    grid-template-areas: "number" "handle" "award";
+}
+
+.floor {
+    background-color: lightgray;
+    width: 100%;
+    height: 5px;
+}
+
+.container [data-door_open="true"] {
+    background-color: #282828;
+}
+
+.container [data-door_open="true"] .handle,
+.container [data-door_open="true"] .number {
+    display: none;
+}
+
+.number {
+    grid-area: number;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+}
+
+.handle {
+    grid-area: handle;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #862A2F;
+    margin-top: 15px;
+    margin-left: 5px;
+}

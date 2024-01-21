@@ -1,0 +1,15 @@
+.menu_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 305px;
+  height: 305px;
+  gap: 5px;
+}
+
+.title {
+  color: white;
+}
+
+.app_init {
+  background-color: #01967A;
+}
