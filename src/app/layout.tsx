@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Monty hall',
-  description: 'Monty hall feito com nextjs',
+  description: 'Monty hall feito com nextJs 14 + Typescript',
   authors: [{name: "Bruno Mikael Nagel"}],
   keywords: ["monty hall"]
 }
