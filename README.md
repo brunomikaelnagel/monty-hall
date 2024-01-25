@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Monty hall - NextJs 14
 
-## Getting Started
+O Monty Hall Problem é um quebra-cabeça estatístico que ganhou notoriedade em programas de televisão. Neste simulador, você pode explorar e visualizar as estratégias associadas ao problema de Monty Hall
 
-First, run the development server:
+<b>Menu inicial</b>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Tela inicial do mini game, com 4 quadradados centralizados na tela, onde um do cadastros tem o titulo do programa, 2 quadrados possui com contadores para configurar o programa e outro o botão iniciar para gerar as portas](public/images/menuInicial.PNG)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<b>Monty hall</b>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Tela do monty hall, possui varias portas, a quantidade vai depender do configurado no menu inicial e com um botão iniciar na parte de baixo da tela](public/images/montyHall.PNG)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<b>Monty hall - Completo</b>
 
-## Learn More
+![Tela do monty hall, possui varias portas e uma delas esta aberta outra esta aberta com o presente que seria o prêmion e outra esta selecionado, a quantidade vai depender do configurado no menu inicial  e com um botão iniciar na parte de baixo da tela](public/images/MontyHallCorrect.PNG)
 
-To learn more about Next.js, take a look at the following resources:
+## Licença 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
