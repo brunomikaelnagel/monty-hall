@@ -1,4 +1,4 @@
-## Monty hall - NextJs 14
+## Monty hall - NextJs 14 + Typescript
 
 O Monty Hall Problem é um quebra-cabeça estatístico que ganhou notoriedade em programas de televisão. Neste simulador, você pode explorar e visualizar as estratégias associadas ao problema de Monty Hall
 
